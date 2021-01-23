@@ -6,7 +6,7 @@ before_install:
 script:
   - echo "$password" | docker login -u "$username" --password-stdin
   - docker images
-  - docker push bvijaycom/travis1:v3.0
+  - docker push kellygvm/docker1:v2.0
 notifications:
   email:
     recipients:
